@@ -1,0 +1,110 @@
+svg {
+  display: inline-block;
+  overflow: hidden;
+  margin: 0.5rem auto;
+  width: 80%;
+}
+svg path {
+  cursor: pointer;
+}
+.held {
+  position: relative;
+  overflow: hidden;
+}
+.button {
+  width: 150px;
+  padding: 10px;
+}
+.swatchHolder {
+  left: 0px;
+  right: 0px;
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+  padding: 15px;
+  color: black;
+  margin-top: 5rem;
+}
+.swatchHolder li:not(.colorHolder) {
+  height: 3rem;
+  width: 3rem;
+  margin: 5px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.picked {
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.btn {
+  margin: 5px;
+}
+/*gallery modal image style*/
+.gallery-option {
+  display: inline-block;
+  width: 15%;
+  margin: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+  border: none;
+}
+.gallery-option:hover {
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+.gallery-option > img {
+  height: 100%;
+  width: 100%;
+}
+.modal-header .title {
+  margin: auto;
+}
+/*Start botton on new lin*/
+#animationStop {
+  clear: both;
+}
+@media (max-width: 425px) {
+  .swatchHolder li:not(.colorHolder) {
+    height: 1.2rem;
+    width: 1.2rem;
+    margin: 2px;
+  }
+  .swatchHolder {
+    margin: auto;
+  }
+  .btn {
+    font-size: 0.8rem;
+  }
+  .gallery-option {
+    width: 70%;
+    margin: 0.5rem;
+  }
+}
+
+@media (min-width: 425.1px) and (max-width: 768px) {
+  .swatchHolder li:not(.colorHolder) {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 3px;
+  }
+  .swatchHolder {
+    margin-top: 3rem;
+  }
+  .btn {
+    font-size: 0.8rem;
+  }
+  .gallery-option {
+    width: 45%;
+    margin: 1rem;
+  }
+}
+@media (min-width: 768.1px) and (max-width: 1024px) {
+  .gallery-option {
+    width: 40%;
+    margin: 1.5rem;
+  }
+}
