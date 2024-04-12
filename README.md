@@ -1,5 +1,5 @@
 # Coloring Book
-This jQuery web application is developed to let users enjoy digital coloring.  The original app is copyrighted to Cornell University and has been released under the Apache 2.0 license. You may download and modify the code to include your coloring pages, color pallet, and branding.  Please keep the reference to credit back to Cornell and the original app in the footer.
+This jQuery web application is developed to let users enjoy digital coloring.  The original app is copyrighted to Cornell University and has been released under the Apache 2.0 license. You may download and modify the code to include your coloring pages, color pallet, and branding.  By default, the homepage has links to this repo and the original app in the footer.  You may remove that.  You may also rename your page title, remove the demo coloring sheet, and remove any reference to Cornell. 
 
 ## Live demo
 Check out what you can build using the code of this repository.
